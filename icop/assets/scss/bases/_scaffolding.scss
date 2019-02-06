@@ -2,5 +2,33 @@ body {
   color: $gray;
   font-size: $font-size-xxs;
   font-family: $first_regular;
+  background-color: $white;
+}
 
+a {
+  color: $gray;
+
+  &:focus {
+    color: $gray;
+  }
+
+  &:hover {
+    color: $green;
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  color: $gray_3;
+}
+
+#content-page {
+  font-size: 16px;
+}
+
+.module-image .image-wrap img {
+  vertical-align: middle;
+}
+
+.module-image.image-left .image-wrap {
+  margin-right: 10px;
 }
