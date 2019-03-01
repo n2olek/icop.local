@@ -7,7 +7,7 @@ add_filter( 'auto_update_translation', '__return_false' );
 define( 'THEME_URI', get_stylesheet_directory_uri());
 define( 'THEME_TEXTDOMAIN', 'icop' );
 define( 'ICL_DONT_LOAD_LANGUAGE_SELECTOR_CSS', true);
-define( 'CSSJS_VERSION', '1.1' );
+define( 'CSSJS_VERSION', '1.4' );
 
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles', PHP_INT_MAX);
 function theme_enqueue_styles() {
